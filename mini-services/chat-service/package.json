@@ -1,0 +1,13 @@
+{
+  "name": "chat-service",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun index.ts",
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "tmi.js": "^1.8.5",
+    "socket.io-client": "^4.7.0"
+  }
+}
